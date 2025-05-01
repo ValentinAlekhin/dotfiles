@@ -1,0 +1,5 @@
+[core]
+	autocrlf = input
+[user]
+	name = Valentin Alekhin
+	email = alekhin.v99@gmail.com

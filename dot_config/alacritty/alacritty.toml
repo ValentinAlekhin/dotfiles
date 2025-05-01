@@ -1,0 +1,18 @@
+[window]
+opacity = 0.7
+blur = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 16.0
+
+[keyboard]
+bindings = [
+    # Вставка (Paste)
+    { key = "V", mods = "Command", action = "Paste" },
+    { key = "М", mods = "Command", action = "Paste" },
+
+    # Копирование (Copy)
+    { key = "C", mods = "Command", action = "Copy" },
+    { key = "С", mods = "Command", action = "Copy" },
+]
