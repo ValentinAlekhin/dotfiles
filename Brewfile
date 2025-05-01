@@ -16,12 +16,18 @@ brew "libpq", link: true
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Theme for zsh
+brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # User interface to the TELNET protocol
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # A database toolkit
 brew "ariga/tap/atlas"
 # GPU-accelerated terminal emulator
@@ -30,7 +36,8 @@ cask "alacritty"
 cask "bruno"
 # Universal database tool and SQL client
 cask "dbeaver-community"
-cask "font-jetbrains-mono"
+# App to build and share containerised applications and microservices
+cask "docker"
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
 cask "google-chrome"
