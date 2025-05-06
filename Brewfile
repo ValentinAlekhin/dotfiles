@@ -45,6 +45,8 @@ cask "google-chrome"
 cask "jordanbaird-ice"
 # Password manager app
 cask "keepassxc"
+# Customise mouse behavior
+cask "linearmouse"
 # Clipboard manager
 cask "maccy"
 # GameStream client
