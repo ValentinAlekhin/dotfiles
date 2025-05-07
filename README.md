@@ -14,5 +14,5 @@ chmod +x setup.sh
 
 ## Обновление Homebrew файла зависимотей
 ```sh
-brew bundle dump --describe --force
+brew bundle dump --file=~/.local/share/chezmoi/Brewfile --describe --force
 ```
