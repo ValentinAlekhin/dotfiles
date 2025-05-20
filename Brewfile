@@ -6,6 +6,8 @@ brew "bat"
 brew "chezmoi"
 # Modern, maintained replacement for ls
 brew "eza"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Database migrations CLI tool
@@ -59,6 +61,8 @@ cask "qbittorrent"
 cask "stats"
 # Desktop client for Telegram messenger
 cask "telegram-desktop"
+# Configurable document editor that supports Markdown
+cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -69,6 +73,8 @@ cask "yandex"
 cask "yandex-disk"
 # Multiplayer code editor
 cask "zed"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
@@ -94,6 +100,7 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
+vscode "ms-vscode.remote-explorer"
 vscode "redhat.ansible"
 vscode "redhat.vscode-yaml"
 vscode "saoudrizwan.claude-dev"
