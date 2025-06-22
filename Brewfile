@@ -1,7 +1,11 @@
 tap "ariga/tap"
 tap "lizardbyte/homebrew"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Implementation of the DNS protocols
+brew "bind"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Modern, maintained replacement for ls
@@ -12,6 +16,8 @@ brew "ffmpeg"
 brew "go"
 # Database migrations CLI tool
 brew "golang-migrate"
+# Manage your personal accounts at home
+brew "homebank"
 # Postgres C API library
 brew "libpq", link: true
 # Mac App Store command-line interface
@@ -20,8 +26,16 @@ brew "mas"
 brew "neovim"
 # Theme for zsh
 brew "powerlevel10k"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
+# Go support for Google's protocol buffers
+brew "protoc-gen-go"
+# Protoc plugin that generates code for gRPC-Go clients
+brew "protoc-gen-go-grpc"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Non-interactive SSH password auth
+brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
@@ -34,6 +48,8 @@ brew "zsh-syntax-highlighting"
 brew "ariga/tap/atlas"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Desktop password and login vault
+cask "bitwarden"
 # Open source IDE for exploring and testing APIs
 cask "bruno"
 # Universal database tool and SQL client
@@ -53,6 +69,7 @@ cask "linearmouse"
 cask "maccy"
 # GameStream client
 cask "moonlight"
+cask "mqtt-explorer"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Peer to peer Bitorrent client
