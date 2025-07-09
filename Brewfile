@@ -18,6 +18,8 @@ brew "go"
 brew "golang-migrate"
 # Manage your personal accounts at home
 brew "homebank"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
 # Postgres C API library
 brew "libpq", link: true
 # Mac App Store command-line interface
@@ -40,6 +42,8 @@ brew "sshpass"
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
@@ -55,10 +59,14 @@ cask "bruno"
 # Universal database tool and SQL client
 cask "dbeaver-community"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 cask "font-jetbrains-mono-nerd-font"
 # Web browser
 cask "google-chrome"
+# Open-source video transcoder
+cask "handbrake-app"
+# Vector graphics editor
+cask "inkscape"
 # Menu bar manager
 cask "jordanbaird-ice"
 # Password manager app
@@ -109,6 +117,7 @@ vscode "golang.go"
 vscode "gruntfuggly.todo-tree"
 vscode "hangxingliu.vscode-nginx-conf-hint"
 vscode "isudox.vscode-jetbrains-keybindings"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
