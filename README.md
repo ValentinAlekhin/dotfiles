@@ -6,7 +6,6 @@ git clone github.com/ValentinAlekhin/dotfiles ~/.local/share/chezmoi
 # Перейти в директорию проекта
 cd ~/.local/share/chezmoi
 
-
 # Установить зависимости
 chmod +x setup.sh
 ./setup.sh

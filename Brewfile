@@ -1,13 +1,21 @@
 tap "ariga/tap"
+tap "grishka/grishka"
+tap "krishkrosh/apps"
 tap "lizardbyte/homebrew"
+tap "oven-sh/bun"
+tap "supabase/tap"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
+# Standalone version of arguments parsing functions from GLIBC
+brew "argp-standalone"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Implementation of the DNS protocols
 brew "bind"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Cross-platform make
+brew "cmake"
 # Modern, maintained replacement for ls
 brew "eza"
 # Play, record, convert, and stream audio and video
@@ -16,16 +24,28 @@ brew "ffmpeg"
 brew "go"
 # Database migrations CLI tool
 brew "golang-migrate"
+# Fast linters runner for Go
+brew "golangci-lint"
 # Manage your personal accounts at home
 brew "homebank"
 # Update of iperf: measures TCP, UDP, and SCTP bandwidth
 brew "iperf3"
+# Microsoft (MS) EMF to SVG conversion library
+brew "libemf2svg"
 # Postgres C API library
 brew "libpq", link: true
+# Base library for writing document import filters
+brew "librevenge"
+# Interpret and import Visio diagrams
+brew "libvisio"
+# Library for converting WMF (Window Metafile Format) files
+brew "libwmf"
 # Mac App Store command-line interface
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
 # Theme for zsh
 brew "powerlevel10k"
 # Protocol buffers (Google's data interchange format)
@@ -36,12 +56,16 @@ brew "protoc-gen-go"
 brew "protoc-gen-go-grpc"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Utility that provides fast incremental file transfer
+brew "rsync"
 # Non-interactive SSH password auth
 brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -50,6 +74,10 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # A database toolkit
 brew "ariga/tap/atlas"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Supabase CLI
+brew "supabase/tap/supabase"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Desktop password and login vault
@@ -71,21 +99,33 @@ cask "inkscape"
 cask "jordanbaird-ice"
 # Password manager app
 cask "keepassxc"
+# Open-source keystroke visualiser
+cask "keycastr"
 # Customise mouse behavior
 cask "linearmouse"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
 # Clipboard manager
 cask "maccy"
 # GameStream client
 cask "moonlight"
 cask "mqtt-explorer"
+# Unofficial Google Nearby Share app
+cask "neardrop"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Collaboration platform for API development
+cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # System monitor for the menu bar
 cask "stats"
 # Desktop client for Telegram messenger
 cask "telegram-desktop"
+# Turn your MacBook's trackpad into a precise digital weighing scale
+cask "trackweight"
 # Configurable document editor that supports Markdown
 cask "typora"
 # Open-source code editor
@@ -117,11 +157,13 @@ vscode "golang.go"
 vscode "gruntfuggly.todo-tree"
 vscode "hangxingliu.vscode-nginx-conf-hint"
 vscode "isudox.vscode-jetbrains-keybindings"
+vscode "kilocode.kilo-code"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode-remote.remote-ssh"
 vscode "ms-vscode-remote.remote-ssh-edit"
