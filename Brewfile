@@ -4,6 +4,8 @@ tap "krishkrosh/apps"
 tap "lizardbyte/homebrew"
 tap "oven-sh/bun"
 tap "supabase/tap"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Standalone version of arguments parsing functions from GLIBC
@@ -62,8 +64,6 @@ brew "rsync"
 brew "sshpass"
 # User interface to the TELNET protocol
 brew "telnet"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Feature-rich command-line audio/video downloader
@@ -110,18 +110,16 @@ cask "maccy"
 # GameStream client
 cask "moonlight"
 cask "mqtt-explorer"
-# Unofficial Google Nearby Share app
-cask "neardrop"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Collaboration platform for API development
 cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
-# Move and resize windows using keyboard shortcuts or snap areas
-cask "rectangle"
 # System monitor for the menu bar
 cask "stats"
+# CSV file editor
+cask "table-tool"
 # Desktop client for Telegram messenger
 cask "telegram-desktop"
 # Turn your MacBook's trackpad into a precise digital weighing scale
@@ -174,3 +172,14 @@ vscode "redhat.vscode-yaml"
 vscode "saoudrizwan.claude-dev"
 vscode "vue.volar"
 vscode "zignd.html-css-class-completion"
+go "github.com/air-verse/air"
+go "github.com/go-delve/delve/cmd/dlv"
+go "goa.design/goa/v3/cmd/goa"
+go "golang.org/x/tools/gopls"
+go "github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen"
+go "google.golang.org/grpc/cmd/protoc-gen-go-grpc"
+go "github.com/sorcererxw/protoc-gen-go-grpc-mock"
+go "github.com/favadi/protoc-go-inject-tag"
+go "github.com/xvzc/SpoofDPI/cmd/spoofdpi"
+go "github.com/sqlc-dev/sqlc/cmd/sqlc"
+go "honnef.co/go/tools/cmd/staticcheck"

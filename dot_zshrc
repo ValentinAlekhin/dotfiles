@@ -114,6 +114,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Ensure Go-installed binaries are available in PATH
+export PATH="$HOME/go/bin:$PATH"
+
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/valentin/.lmstudio/bin"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
